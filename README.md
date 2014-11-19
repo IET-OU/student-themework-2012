@@ -10,7 +10,7 @@ This package also contains a Laravel Service Provider, which will register the p
 
 ## Installation
 To install this package into a Laravel App using CodeSleeve/asset-pipeline:
-Add `OU\ThemeStudent2012\ThemeStudent2012ServiceProvider` to your `app/config/app.php` file
-Run `composer dump-autoload`
-Run `php artisan dump-autoload`
-Add references to the CSS and JS files into your manifest files e.g. //= require styles
+1. Add `OU\ThemeStudent2012\ThemeStudent2012ServiceProvider` to your `app/config/app.php` file
+2. Run `composer dump-autoload`
+3. Run `php artisan dump-autoload`
+4. Add references to the CSS and JS files into your manifest files e.g. //= require styles
