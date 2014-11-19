@@ -11,10 +11,14 @@ This package also contains a Laravel Service Provider, which will register the p
 ## Installation
 To install this package into a Laravel App using CodeSleeve/asset-pipeline:
 
-1. Add `OU\ThemeStudent2012\ThemeStudent2012ServiceProvider` to your `app/config/app.php` file
+1. Install this package using Composer
 
-2. Run `composer dump-autoload`
+2. Add `OU\ThemeStudent2012\ThemeStudent2012ServiceProvider` to your `app/config/app.php` file
 
-3. Run `php artisan dump-autoload`
+3. Run `composer dump-autoload`
 
-4. Add references to the CSS and JS files into your manifest files e.g. //= require styles
+4. Run `php artisan dump-autoload`
+
+5. Run `php artisan asset:publish "ou/theme-student2012"` to publish all of the assets to the `public/packages/ou/theme-student2012` directory of your app (you will need to do this everytime you pull a new commit)
+
+6. Add references to the CSS and JS files into your manifest files e.g. //= require styles
