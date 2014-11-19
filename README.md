@@ -1,6 +1,16 @@
-student-themework-2012
-======================
+# student-themework-2012
 
-The current student theme (not long for this world)
+## Overview
+This package contains the current Student Theme and aims to help us build an efficient workflow for bridging theme design and theme implementation.
 
-Used in the current Student Help Centre.
+## Usage
+All of the theme files should be put inside the 'public' folder of this package. Inside this folder you may create whatever folder structure you wish.
+
+This package also contains a Laravel Service Provider, which will register the public directory of this package with CodeSleeve/asset-pipeline. This allows us to simply reference the theme files in the manifest file using local paths.
+
+## Installation
+To install this package into a Laravel App using CodeSleeve/asset-pipeline:
+Add `OU\ThemeStudent2012\ThemeStudent2012ServiceProvider` to your `app/config/app.php` file
+Run `composer dump-autoload`
+Run `php artisan dump-autoload`
+Add references to the CSS and JS files into your manifest files e.g. //= require styles
