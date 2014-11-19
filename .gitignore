@@ -1,3 +1,4 @@
-*.LCK
-*.zip
+/vendor
+composer.phar
+composer.lock
 .DS_Store
