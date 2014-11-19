@@ -1,0 +1,20 @@
+{
+    "name": "ou/theme-student2012",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ben Gurney",
+            "email": "ben.gurney@open.ac.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "OU\\ThemeStudent2012": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

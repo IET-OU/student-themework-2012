@@ -1,0 +1,11 @@
+@media print { 
+
+	body {background: white; padding:0 1em;}
+	img, div.sh-nav, div#ou-org-header, div#ioemenu, div#ou-site-header, div.mobile-only, span.hide, div.quick-links {display:none;}
+	form.ou-ouice input[type="text"], form.ou-ouice textarea, form.ou-ouice select {background-color: #FFFFFF;border: 2px solid #000;padding: 0.5em;
+	width:75%;}
+	form.ou-ouice, form.ou-ouice fieldset {padding:0;margin:0;}
+	form.ou-ouice p {margin:1em 0;font-weight:bold;}
+	label {display:block;}
+	
+}
