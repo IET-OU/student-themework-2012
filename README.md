@@ -1,7 +1,7 @@
 # student-themework-2012
 
 ## Overview
-This package contains the current [Student Theme](http://www2-acct.open.ac.uk/students/style-guide) and aims to help us build an efficient workflow for bridging theme design and theme implementation.
+This package contains the current [Student Theme](http://www2.open.ac.uk/students/style-guide) and aims to help us build an efficient workflow for bridging theme design and theme implementation.
 
 ## Usage
 All of the theme files should be put inside the 'public' folder of this package. Inside this folder you may create whatever folder structure you wish.
