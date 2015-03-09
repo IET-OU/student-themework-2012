@@ -120,23 +120,26 @@ div.ie7-warning {
 }
 
 html.ltie8 div.ie7-warning {
-	margin-top: 10px;
+	margin: 0;
 	display: block;
-	background: #b01827;
-	color: #fff;
-	padding: 1em;
+	background: #fff;
+	color: #000;
+	padding: 0 1em;
 	max-width: 90em;
-	font-weight: bold;
-	text-align: center;
+	font-weight: normal;
+	text-align: left;
 }
 
+html.ltie8 div.ie7-warning p {margin:0; padding:0;}
+
 html.ltie8 div.ie7-warning a {
-	color: yellow;
+	color: blue;
 }
 
 html.ltie8 div.ie7-warning a:hover {
-	color: #fff;
+	color: blue;
 }
+
 
 
 /**/
